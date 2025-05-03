@@ -1,0 +1,44 @@
+site_name: Dataflow
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.search.highlight
+    - navigation.search.share
+    - navigation.search.suggest
+    - navigation.search.suggest.highlight
+    - navigation.search.suggest.share
+    - navigation.search.suggest.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - search.suggest.highlight
+    - search.suggest.share
+    - search.suggest.tracking
+nav:
+  - About:
+    - Welcome: about/welcome.md
+    - Use Cases: about/use-cases.md
+    - Key Features: about/features.md
+  - Getting Started: getting-started/getting-started.md
+  - Documentation:
+    - Data Sources: documentation/data-sources.md
+    - Agent: documentation/agent.md
+  - Tutorials: tutorials/tutorials.md
+  - FAQ: faq/faq.md
+extra:
+  generator: false
+  social:
+    - icon: simple/github
+      link: https://github.com/fledermoys
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/max-gr%C3%BCnwald-437692225/
+    - icon: simple/x
+      link: https://twitter.com/fledermoys
+    - icon: fontawesome/brands/behance
+      link: https://www.behance.net/maxgr
