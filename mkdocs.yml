@@ -21,6 +21,7 @@ theme:
     - search.suggest.share
     - search.suggest.tracking
 nav:
+  - index.md
   - About:
     - Welcome: about/welcome.md
     - Use Cases: about/use-cases.md
