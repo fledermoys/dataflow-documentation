@@ -21,9 +21,8 @@ theme:
     - search.suggest.share
     - search.suggest.tracking
 nav:
-  - index.md
   - About:
-    - Welcome: about/welcome.md
+    - Welcome: index.md
     - Use Cases: about/use-cases.md
     - Key Features: about/features.md
   - Getting Started: getting-started/getting-started.md
