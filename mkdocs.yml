@@ -22,7 +22,15 @@ theme:
     - search.suggest.tracking
 nav:
   - About:
-    - index.md
+    - Welcome: about/welcome.md
+    - Use Cases: about/use-cases.md
+    - Key Features: about/features.md
+  - Getting Started: getting-started/getting-started.md
+  - Documentation:
+    - Data Sources: documentation/data-sources.md
+    - Agent: documentation/agent.md
+  - Tutorials: tutorials/tutorials.md
+  - FAQ: faq/faq.md
 extra:
   generator: false
   social:
