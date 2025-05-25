@@ -27,6 +27,7 @@ nav:
     - Key Features: about/features.md
   - Getting Started: getting-started/getting-started.md
   - Documentation:
+    - Release Notes: documentation/release-notes.md
     - Data Sources: documentation/data-sources.md
     - Agent: documentation/agent.md
   - Tutorials: tutorials/tutorials.md
