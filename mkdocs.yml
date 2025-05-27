@@ -25,8 +25,8 @@ nav:
     - Welcome: index.md
     - Use Cases: about/use-cases.md
     - Key Features: about/features.md
-  - Getting Started: getting-started/getting-started.md
   - Documentation:
+    - Getting Started: documentation/getting-started.md
     - Release Notes: documentation/release-notes.md
     - Data Sources: documentation/data-sources.md
     - Agent: documentation/agent.md
@@ -52,3 +52,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+copyright:
+  © 2025 <a href="https://www.linkedin.com/in/max-gr%C3%BCnwald-437692225/" tarfget="_blank" rel="noopener">Max Grünwald</a>
