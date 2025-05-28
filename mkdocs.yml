@@ -1,5 +1,17 @@
 site_name: Dataflow
 theme:
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   name: material
   features:
     - navigation.tabs
@@ -27,6 +39,7 @@ nav:
     - Key Features: about/features.md
   - Documentation:
     - Getting Started: documentation/getting-started.md
+    - Google Sheets API Setup: documentation/google-api.md
     - Release Notes: documentation/release-notes.md
     - Data Sources: documentation/data-sources.md
     - Agent: documentation/agent.md
@@ -52,6 +65,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 copyright:
   © 2025 <a href="https://www.linkedin.com/in/max-gr%C3%BCnwald-437692225/" tarfget="_blank" rel="noopener">Max Grünwald</a>
