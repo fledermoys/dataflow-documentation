@@ -5,7 +5,7 @@ Dataflow comes with a "bring your own API Key" solution  when it comes to connec
 **Fortunately the Google Sheets API is free and easy to setup.**
 Follow this guide closely, to properly setup the Sheets API to work with Dataflow.
 
-## Setting Up a Google Cloud Project
+## Creating a Google Cloud Project
 In order to access your Google Sheets in Dataflow, you need to create a free Google Cloud Project.
 This will be the endpoint which Dataflow will always connect to.
 To create a Google Cloud Project, follow these steps:

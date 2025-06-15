@@ -1,5 +1,6 @@
 site_name: Dataflow
 theme:
+  logo: assets/Color_Dataflow_vec.svg
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -73,3 +74,5 @@ markdown_extensions:
 
 copyright:
   © 2025 <a href="https://www.linkedin.com/in/max-gr%C3%BCnwald-437692225/" tarfget="_blank" rel="noopener">Max Grünwald</a>
+extra_css:
+- stylesheets/extra.css

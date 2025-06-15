@@ -1,6 +1,8 @@
 # Welcome to Dataflow
-
 Dataflow is a powerful Adobe After Effects extension that streamlines data-driven content reversioning. It enables users to connect to local data sources like **.json** or **.tsv** files, or **Google Sheets** using a free, user-provided API key, empowering you to build complex design systems and effortlessly batch-render unlimited variations of your projects.
 
 ## Background
 Dataflow began as a personal project to create data-driven content outside my workplace, where we used expensive enterprise software to localize complex After Effects project rigs for global advertising campaigns. Recognizing the potential of data-driven video versioning for both enterprise and personal projects, I was inspired to develop my own accessible tool to achieve this.
+
+## Vision
+By creating Dataflow, the goal is to enable creative professionals to create assets of the highest quality, focusing mainly on the creation process, without having to worry much about all the different formats, languages, file types etc. they have to deliver. This tool gives the ability to massively scale the output of any project or campaigns, which is especially important in todays world where personalized content plays such a big role in advertising and other industries. It eliminates all the repetitive work creatives spend so much time and energy on and therefore enable teams of any size to get more done way faster.
