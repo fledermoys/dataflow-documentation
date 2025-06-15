@@ -1,6 +1,7 @@
 site_name: Dataflow
 theme:
   logo: assets/Color_Dataflow_vec.svg
+  favicon: assets/Color_Dataflow_vec.svg
   palette: 
     # Palette toggle for light mode
     - scheme: default
