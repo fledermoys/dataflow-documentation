@@ -1,3 +1,28 @@
-:root  > * {
-    --md-primary-fg-color: #333333;
-  }
+/* globaldefine */
+:root > * {
+  --md-primary-fg-color: #333333 !important;
+  --md-typeset-a-color: #009CDE !important;/* Default link color */
+  --md-accent-fg-color: #365ABD !important; /* Accent color */
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-mark-color: #eeeeee !important; /* Highlighted text color */
+}
+/* Dark mode styles */
+[data-md-color-scheme="slate"] {
+  --md-typeset-mark-color: #15171c !important; /* Highlighted text color */
+}
+mark {
+  border-radius: 6px;
+  padding: 3px;
+}
+.md-header,
+.md-tabs {
+  background: linear-gradient(90deg, var(--md-typeset-a-color) 0%, var(--md-accent-fg-color) 100%);
+}
+img[alt="logo"] {
+  filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 0.3));
+}
+.md-header__topic {
+  font-size: 1.5em;
+}

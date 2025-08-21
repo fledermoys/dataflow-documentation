@@ -13,9 +13,7 @@ Dataflow Columns are predefined keys/column names that are reserved for use of m
 |render-settings| Allows you to select an After Effects Render Settings Template for your outputs via your data source.| **Case Sensitive.** Only use values that match installed Render Setting Templates on your machine. If no matching template is found, the row will be skipped. If left empty, will use After Effects Default Render Settings |
 |output-module| Allows you to select an After Effects Output Module Template for your outputs via your data source.| **Case Sensitive.** Only use values that match installed Output Module Templates on your machine. If no matching template is found, the row will be skipped. If left empty, will use After Effects Default Module |
 |**Agent**|||
-|render-status| This Column specifies the status of a render job. Allowing for the Agent to scan the data source for ready to render jobs and therefore allowing new data to come in dynamically for the bot to render. Once a job is sucessfully rendered, the Agent will set the render-status value to  **finished**. | Must exist when using Agent. [Data Setup for Agent Mode]
-
-## Column Guides
+|render-status| This column specifies the status of a render job, allowing the Agent to scan the data source for ready-to-render jobs. This enables new data to be dynamically processed by the Agent. Once a job is successfully rendered, the Agent will set the render-status value to **finished**. | Must exist when using Agent. See [Data Source for Agent Mode](#data-source-for-agent-mode) for more details. | 
 
 
 ## Sample Sheet
@@ -77,3 +75,19 @@ Dataflow Columns are predefined keys/column names that are reserved for use of m
   }
 ]
 ```
+
+## Data Source for Agent Mode
+
+If you want to use agent mode to have a 24/7 renderbot which renders on demand, you need to add a collumn/key called **render-status** to your data soure.
+This render-status has 4 states:
+
+* **ready**: Asset is ready to render.
+* **processing**: Asset is currently being rendered/processed.
+* **error**: Asset rendering failed / missing data / skipped or aborted for other reasons.
+* **finished**: Asset finished rendering!
+
+This is needed so the Agent knows which Assets it is allowed to render.
+!!! info "Info"
+    When connecting multiple Sheets, the agent will scan the sheets in the order you selected them in the sheet selector.
+    Therefore you need to select data soruces based on rendering priority.
+

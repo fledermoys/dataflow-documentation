@@ -52,7 +52,6 @@ In the Dataflow extension
 
 1. Navigate to Settings
 2. In the Google Sheets section, select your client secret
-3. Set the localhost server to the same one as in your Google Cloud Project
 4. Press OK.
 
 ## Dataflow LogIn
@@ -60,9 +59,9 @@ Finally, we can connect to our Google Sheets Data.
 
 1. Navigate to **Data**
 2. Press the LogIn Button
-3. LogIn with the Google Account you want to access the Sheets of
-4. After authentication, paste the enitre adress bar content into the Token Alert Window.
+3. LogIn with your Google account and follow the authentication process
+4. After successful authentication, return to After Effects
 
-If everything was setup correctly you should now see which Email adress you are logged in to and see all the Google Sheets that are owned by your account. Now you can Select them as a data source.
+If everything was setup correctly you should see all the available Google Sheets. Now you can Select them as a data source!
 
 
