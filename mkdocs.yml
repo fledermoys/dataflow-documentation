@@ -36,6 +36,7 @@ theme:
 nav:
   - About:
     - Welcome: index.md
+    - Why Dataflow?: about/why-dataflow.md
     - Use Cases: about/use-cases.md
     - Features: about/features.md
     - Developer: about/developer.md
