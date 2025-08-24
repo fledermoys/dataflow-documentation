@@ -1,3 +1,4 @@
+# FAQ
 ## Licensing
 ??? question "Where can I find and manage my Licenses?"
 

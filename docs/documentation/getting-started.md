@@ -1,10 +1,13 @@
 # Getting Started
+## Purchasing a Subscription
+Please go to my [Lemon Squeezy Store](https://maxg.lemonsqueezy.com/) to purchase a subscription of your choice for Dataflow.
+
 ## Download
 
 Head over to the [Downloads Page](../downloads/downloads.md) where you can find the latest version and release notes.
 ## Install
 
-1. Download and open the [ZXP Installer](https://zxpinstaller.com/)
+1. Download and open the [ZXP Installer](https://aescripts.com/learn/zxp-installer/)
 2. Navigate to the After Effects tab
 3. Drag and drop ==Dataflow.zxp== into the ZXP installer.
 4. Wait for installation to complete

@@ -3,7 +3,7 @@
 Dataflow empowers Adobe After Effects users with a robust suite of tools to streamline data-driven video production. From seamless data integration to advanced automation, the extension is designed to enhance efficiency, flexibility, and creativity for both individual creators and professional teams.
 
 ## General Features
-- **Seamless Data Connectivity**: Effortlessly connect to local data sources in **.tsv** or **.json** formats, or integrate with **Google Sheets** using a free, user-generated API key from your Google Cloud Project. Our comprehensive [setup guide](../documentation/getting-started.md) ensures a quick and straightforward configuration process.
+- **Seamless Data Connectivity**: Effortlessly connect to local data sources in ==.tsv== or ==.json== formats, or integrate with ==Google Sheets== using a free, user-generated API key from your Google Cloud Project. The comprehensive [setup guide](../documentation/google-api.md) ensures a quick and straightforward configuration process.
 - **Real-Time Data Previews**: Visualize data and footage variations within the extension before rendering, enabling precise adjustments and confident project setup.
 - **Unlimited Batch Rendering**: Generate countless video versions in a single workflow by injecting data and footage into your After Effects projects, saving time and ensuring consistency across outputs.
 - **Customizable User Presets**: Create and save user presets within the extension, allowing rapid selection of project-specific settings.

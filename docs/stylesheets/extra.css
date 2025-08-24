@@ -1,8 +1,12 @@
 /* globaldefine */
 :root > * {
-  --md-primary-fg-color: #333333 !important;
+  --md-primary-fg-color: #009CDE !important;
   --md-typeset-a-color: #009CDE !important;/* Default link color */
   --md-accent-fg-color: #365ABD !important; /* Accent color */
+}
+.md-typeset .md-button:hover {
+  background-color: var(--md-accent-fg-color) !important;
+  border-color: var(--md-accent-fg-color) !important;
 }
 
 [data-md-color-scheme="default"] {

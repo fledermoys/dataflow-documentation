@@ -36,9 +36,9 @@ theme:
 nav:
   - About:
     - 👋 Welcome: index.md
-    - ❓ Why Dataflow: about/why-dataflow.md
-    - 💡 Use Cases: about/use-cases.md
+    - ⚡ Why Dataflow?: about/why-dataflow.md
     - ✨ Features: about/features.md
+    - 💡 Use Cases: about/use-cases.md
     - 👨‍💻 Developer: about/developer.md
     - 📜 EULA: about/EULA.md
   - Documentation:
@@ -49,8 +49,11 @@ nav:
     - 🤖 Agent: documentation/agent.md
     - 📛 Troubleshooting: documentation/troubleshooting.md
   - Tutorials: tutorials/tutorials.md
-  - FAQ: faq/faq.md
+  - Help:
+    - ❓ FAQ: help/faq.md
+    - 📫 Contact: help/contact.md
   - Downloads: downloads/downloads.md
+  - Pricing: pricing/pricing.md
 extra:
   generator: false
   social:
@@ -82,6 +85,10 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - def_list
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright:
   © 2025 <a href="https://www.linkedin.com/in/max-gr%C3%BCnwald-437692225/" tarfget="_blank" rel="noopener">Max Grünwald</a>
