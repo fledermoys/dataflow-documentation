@@ -1,1 +1,1 @@
-Tutorials for Dataflow will be avaulable soon! Stay tuned.
+Tutorials for Dataflow will be available soon! Stay tuned.

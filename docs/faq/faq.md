@@ -9,14 +9,16 @@
     Lemon Squeezy is a payment-processor used by software-developers to handle payments and manage licenses.  
     Learn more about [Lemon Squeezy](https://www.lemonsqueezy.com/)
 
+??? question "How many devices can I use with one license?"
+
+    One device per license key.  
+    This is not to worry, since you can easily drop the license to free it up for use on another device in the [License Manager](https://app.lemonsqueezy.com/my-orders)
+
 ??? question "Do you offer floating licensing?"
 
     Sadly no, Dataflow can only offer node-locked licensing.  
     But users can release their License via the [License Manager](https://app.lemonsqueezy.com/my-orders) to use it on another device.
 
-??? question "How many devices can I use with one license?"
-
-    You can use Dataflow on 2 devices simultaniously per license key.
 
 ??? question "Can I use Dataflow offline?"
 
