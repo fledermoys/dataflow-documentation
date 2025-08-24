@@ -1,3 +1,4 @@
+# Getting Started
 ## Download
 
 Head over to the [Downloads Page](../downloads/downloads.md) where you can find the latest version and release notes.

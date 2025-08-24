@@ -35,19 +35,19 @@ theme:
     - search.suggest.tracking
 nav:
   - About:
-    - Welcome: index.md
-    - Why Dataflow?: about/why-dataflow.md
-    - Use Cases: about/use-cases.md
-    - Features: about/features.md
-    - Developer: about/developer.md
-    - EULA: about/EULA.md
+    - 👋 Welcome: index.md
+    - ❓ Why Dataflow: about/why-dataflow.md
+    - 💡 Use Cases: about/use-cases.md
+    - ✨ Features: about/features.md
+    - 👨‍💻 Developer: about/developer.md
+    - 📜 EULA: about/EULA.md
   - Documentation:
-    - Getting Started: documentation/getting-started.md
-    - Using Dataflow: documentation/using-dataflow.md
-    - Google Sheets API Setup: documentation/google-api.md
-    - Data Sources: documentation/data-sources.md
-    - Agent: documentation/agent.md
-    - Troubleshooting: documentation/troubleshooting.md
+    - 🚀 Getting Started: documentation/getting-started.md
+    - 🛠️ Using Dataflow: documentation/using-dataflow.md
+    - 📡 Google Sheets API Setup: documentation/google-api.md
+    - 🔗 Data Sources: documentation/data-sources.md
+    - 🤖 Agent: documentation/agent.md
+    - 📛 Troubleshooting: documentation/troubleshooting.md
   - Tutorials: tutorials/tutorials.md
   - FAQ: faq/faq.md
   - Downloads: downloads/downloads.md
@@ -81,6 +81,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - def_list
 
 copyright:
   © 2025 <a href="https://www.linkedin.com/in/max-gr%C3%BCnwald-437692225/" tarfget="_blank" rel="noopener">Max Grünwald</a>
