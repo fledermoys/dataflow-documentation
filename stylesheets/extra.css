@@ -1,8 +1,12 @@
 /* globaldefine */
 :root > * {
-  --md-primary-fg-color: #333333 !important;
+  --md-primary-fg-color: #009CDE !important;
   --md-typeset-a-color: #009CDE !important;/* Default link color */
   --md-accent-fg-color: #365ABD !important; /* Accent color */
+}
+.md-typeset .md-button:hover {
+  background-color: var(--md-accent-fg-color) !important;
+  border-color: var(--md-accent-fg-color) !important;
 }
 
 [data-md-color-scheme="default"] {
@@ -25,4 +29,27 @@ img[alt="logo"] {
 }
 .md-header__topic {
   font-size: 1.5em;
+}
+.md-typeset .admonition.no-icon .admonition-title::before { display: none; }
+/* Hide the icon and remove left spacing for custom admonition */
+.md-typeset .admonition.no-icon .admonition-title {
+  padding-left: 12.8px !important;
+}
+.md-typeset .admonition.no-icon .admonition-title::before {
+  display: none !important;
+}
+
+/* Custom colors for no-icon admonition using note variables */
+.md-typeset .admonition.no-icon,
+.md-typeset details.no-icon {
+  border-color: #365ABD;
+}
+.md-typeset .no-icon > .admonition-title,
+.md-typeset .no-icon > summary {
+  background-color: rgba(54, 90, 189, 0.1);
+}
+/* Hide the icon for no-icon admonition */
+.md-typeset .no-icon > .admonition-title::before,
+.md-typeset .no-icon > summary::before {
+  display: none !important;
 }
