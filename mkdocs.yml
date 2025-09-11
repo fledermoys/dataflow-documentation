@@ -49,11 +49,7 @@ nav:
     - 🤖 Agent: documentation/agent.md
     - 📛 Troubleshooting: documentation/troubleshooting.md
   - Tutorials: tutorials/tutorials.md
-  - Help:
-    - ❓ FAQ: help/faq.md
-    - 📫 Contact: help/contact.md
   - Downloads: downloads/downloads.md
-  - Pricing: pricing/pricing.md
 extra:
   generator: false
   social:

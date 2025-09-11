@@ -12,7 +12,10 @@
 
 ??? question "How many devices can I use with one license?"
 
-    One device per license key.  
+    It depends on which subscription model you choose.  
+    You can choose a 1 seated or 2 seated subscription.  
+    Purchasing a 2 seated subscription saves you some bucks compared to buying two single seated subscriptions.
+    With a single seated subscription you will only be able to use Dataflow at one device at a time with the same license key.
     This is not to worry, since you can easily drop the license to free it up for use on another device in the [License Manager](https://app.lemonsqueezy.com/my-orders)
 
 ??? question "Do you offer floating licensing?"
@@ -28,11 +31,6 @@
 ??? question "Is there a trial period?"
 
     Yes, Dataflow offers a 14 day Trial period, which can be cancelled at any time during the trial period free of charge.
-
-## Subscription
-??? question "What subscription types exist?"
-
-    Dataflow offers a Monthly Subscription for 99€ and an Annual Subscription for 999€.
 
 ??? question "Does a subscription include product updates?"
 
